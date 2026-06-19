@@ -1,4 +1,5 @@
-﻿using Avalicao_m8_Alvaro_Kaio_Dieisson_Matheus.modelos;
+﻿using Avalicao_m8_Alvaro_Kaio_Dieisson_Matheus.excecao;
+using Avalicao_m8_Alvaro_Kaio_Dieisson_Matheus.modelos;
 using System;
 using System.Collections.Generic;
 using System.Linq;
