@@ -1,17 +1,13 @@
 ﻿namespace Avalicao_m8_Alvaro_Kaio_Dieisson_Matheus.excecao
 {
     [Serializable]
-    internal class LivroNaoEncontradoExceptio : Exception
+    internal class LivroNaoEncontradoException : Exception
     {
-        public LivroNaoEncontradoExceptio()
+        public LivroNaoEncontradoException()
         {
         }
 
-        public LivroNaoEncontradoExceptio(string? message) : base(message)
-        {
-        }
-
-        public LivroNaoEncontradoExceptio(string? message, Exception? innerException) : base(message, innerException)
+        public LivroNaoEncontradoException(string? message) : base(message)
         {
         }
     }

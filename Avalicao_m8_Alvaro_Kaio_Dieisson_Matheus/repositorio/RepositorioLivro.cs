@@ -1,4 +1,5 @@
-﻿using Avalicao_m8_Alvaro_Kaio_Dieisson_Matheus.modelos;
+﻿using Avalicao_m8_Alvaro_Kaio_Dieisson_Matheus.excecao;
+using Avalicao_m8_Alvaro_Kaio_Dieisson_Matheus.modelos;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -35,7 +36,7 @@ namespace Avalicao_m8_Alvaro_Kaio_Dieisson_Matheus
             public Livro BuscarPorId(int id)
             {
                 var livro = livros.FirstOrDefault(p => p.Id == id);
-                return livro ?? throw new LivroNaoEncontradoExceptio($"Id {id} nao encontrado");
+                return livro ?? throw new LivroNaoEncontradoException($"Id {id} nao encontrado");
             }
 
             public List<Livro> BuscarPorCategoria(string categoria)
