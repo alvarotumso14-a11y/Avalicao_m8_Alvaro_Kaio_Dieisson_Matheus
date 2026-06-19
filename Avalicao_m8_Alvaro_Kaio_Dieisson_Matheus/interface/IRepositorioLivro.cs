@@ -14,7 +14,7 @@ namespace Avalicao_m8_Alvaro_Kaio_Dieisson_Matheus
 
         List<Livro> ListarTodos();
 
-        List<Livro> BuscarPorCategoria(string categoria);
+        List<Livro> BuscarPorAutor(string autor);
 
         public Livro BuscarPorId(int id);
     }

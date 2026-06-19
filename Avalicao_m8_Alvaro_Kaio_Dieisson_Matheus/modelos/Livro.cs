@@ -23,5 +23,9 @@ namespace Avalicao_m8_Alvaro_Kaio_Dieisson_Matheus.modelos
             Disponivel = disponivel;
         }
 
+        internal static void Add(Livro p)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

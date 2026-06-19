@@ -8,9 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="excecao\" />
     <Folder Include="servicos\" />
-    <Folder Include="repositorio\" />
   </ItemGroup>
 
 </Project>
