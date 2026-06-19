@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Avalicao_m8_Alvaro_Kaio_Dieisson_Matheus.modelos
 {
-    class Livro
+    class Livro :
     {
         public int Id { get; set; }
         public string Titulo { get; set; }
